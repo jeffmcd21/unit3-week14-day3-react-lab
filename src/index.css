@@ -1,4 +1,10 @@
+
 body {
+  /* background-color: #454c51; */
+  background-color: #9fe8f8;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +16,84 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.projects-container {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  /* width: 80%; */
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  background-color: #454c51;
+  outline: 2px solid black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 2em;
+}
+
+.projects-name {
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.projects-name::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 4em;
+  background-color: #5bcbf0;
+  margin: 0.7em auto 0.5em;
+  opacity: 0.5;
+}
+
+.projects-position {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 3px;
+  color: #5bcbf0;
+}
+
+.projects-body {
+  font-weight: 300;
+  opacity: 0.75;
+  letter-spacing: 3px;
+  color: #5bcbf0;
+  margin-bottom: 2em;
+}
+
+.projects-image {
+  /* border-radius: 2%; */
+  /* border: 1px solid slategray; */
+  max-width: 500px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.link {
+  color: #5bcbf0;
+  opacity: 0.5;
+
+}
+
+.about-image {
+  display: block;
+  justify-content: center;
+  max-width: 200px;
+}
+
+
+
+.footer-container {
+  /* margin: 5rem; */
+  display: grid;
 }
